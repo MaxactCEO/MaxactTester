@@ -164,7 +164,7 @@ document.addEventListener("DOMContentLoaded", () => {
     // Skapa och placera knappen för att visa/dölja vanor
     const toggleButton = document.createElement("button");
     toggleButton.id = "toggleRepostButton";
-    toggleButton.textContent = "Visa alla vanor";
+    toggleButton.textContent = "Show all habits";
     toggleButton.addEventListener("click", toggleDropdown);
 
     const chartDiv = document.getElementById("chart_div");
@@ -173,7 +173,7 @@ document.addEventListener("DOMContentLoaded", () => {
     // Skapa och placera knappen för att visa statistik
     const statsButton = document.createElement("button");
     statsButton.id = "toggleStatsButton";
-    statsButton.textContent = "Visa frekventa vanor";
+    statsButton.textContent = "Show frequent habits";
     statsButton.addEventListener("click", toggleStatsDisplay);
     chartDiv.insertAdjacentElement("afterend", statsButton);
 
